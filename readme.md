@@ -40,5 +40,17 @@ git commit -m "<message>"
 # push the existing changes
 git remote add origin "<the ssh command from github>"
 
+
+# in case you use new laptop or needed to relog
+
+## this is using ssh
+git auth login --git-protocol ssh
+ -> login with a web browser 
+ -> generate a new ssh key
+ -> passphrase just enter
+ -> title for ssh just skip
+
+## this is using https
+gh auth login
 ```
 
